@@ -1,0 +1,222 @@
+.index{
+    .title{
+        font-size: 20px;
+        color: #222;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        line-height: 28px;
+    }
+    .search{
+        width: 648px;
+        margin: 0 auto;
+        input{
+            width: 606px;
+            height: 40px;
+            background-color: #fff;
+            border-radius: 4px;
+            border: 1px solid #dcdfe6;
+            box-sizing: border-box;
+            color: #606266;
+            display: inline-block;
+            font-size: inherit;
+            line-height: 1;
+            outline: 0;
+            padding: 0 15px;
+            vertical-align: middle;
+            transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+        }
+        span{
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+            
+        }
+    }
+    p{
+        width: 648px;
+        margin: 0 auto;
+        line-height: 40px;
+        text-align: center;
+        a{
+            font-size: 13px;
+            color: #555;
+        }
+    }
+}
+.search_result{
+    .more_filter{
+        padding: 0 15px;
+        font-size: 14px;
+        color: #555;
+        background: #fff;
+        width: 1230px;        
+        margin: 0 auto;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        span{
+            font-size: 14px;
+            color: #555;
+            display: inline-block;
+            width: 60px;
+            border: none;
+            padding: 0;
+            margin: 0;
+            height: 60px;
+            line-height: 60px;
+            padding: 0 10px;
+            position: relative;
+            &::after{
+                display: block;
+                content: "";
+                width: 8px;
+                height: 8px;
+                position: absolute;
+                right:0;
+                top: 50%;
+                margin-top: -4px;
+                border: 1px solid #555;
+                transform: rotate(45deg);
+                border-top: 0;
+                border-left: 0;
+            }
+            &.name{
+                &::after{
+                    display: none;
+                }
+            }
+        }
+    }
+    .results{
+        border-radius: 8px;
+        background: #fff;
+        width: 1230px;
+        margin: 0 auto;
+        .top{
+            padding: 10px 20px;
+            line-height: 26px;
+            position: relative;
+            .left{
+                line-height: 26px;
+                color: #555;
+                font-size: 16px;
+                input{
+                    margin-left: 10px;
+                    background-color: #fff;
+                    border-radius: 4px;
+                    border: 1px solid #dcdfe6;
+                    box-sizing: border-box;
+                    color: #606266;
+                    display: inline-block;
+                    font-size: inherit;
+                    height: 40px;
+                    line-height: 1;
+                    outline: 0;
+                    padding: 0 15px;
+                    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+                }
+            }
+            .depth_search{
+                position: absolute;
+                right: 20px;
+                top: 10px;
+                height: 40px;
+                line-height: 40px;
+                color: #9d9d9d;
+                button{
+                    width: 90px;
+                    line-height: 30px;
+                    border: none;
+                    border-radius: 4px;
+                    font-size: 14px;
+                    outline: none;
+                    background: #7087a3;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+        .items{
+            padding: 20px;
+            ul{
+                li{
+                    border: 1px solid #ddd;
+                    border-radius: 8px;
+                    padding: 20px 30px;
+                    display: flex;
+                    margin-bottom: 10px;
+                    .logo{
+                        display: inline-block;
+                        width: 100px;
+                        height: 100px;
+                    }
+                    .info{
+                        display: inline-block;
+                        margin-left: 20px;
+                        width: 738px;
+                        h5{
+                            font-size: 18px;
+                            line-height: 25px;
+                            margin-bottom: 10px;
+                            a{
+                                color: #504b47;
+                            }
+                            span{
+                                padding: 0 10px;
+                                line-height: 25px;
+                                border: 1px solid #6f86a4;
+                                border-radius: 4px;
+                                margin-left: 20px;
+                                font-size: 14px;
+                                color: #6f86a4;
+                                display: inline-block;
+                            }
+                        }
+                        p{
+                            color: #999;
+                            font-size: 14px;
+                            line-height: 18px;
+                            margin-top: 5px;
+                            span{
+                                color: #555;
+                                margin-left: 5px;
+                                margin-right: 40px;
+                            }
+                        }
+                    }
+                    .options{
+                        width: 255px;
+                        height: 40px;    
+                        align-self: center;
+                        button{
+                            display: inline-block;
+                            box-sizing: border-box;
+                            width: 110px;
+                            height: 35px;
+                            padding: 0 10px;
+                            border-radius: 4px;
+                            border: 1px solid transparent;
+                            font-size: 14px;
+                            cursor: pointer;
+                            outline: none;
+                            margin-right: 8px;
+                            line-height: 1;
+                            font-weight: 400;
+                            &.collect{
+                                background: #fff;
+                                border-color: #6f86a4;
+                                color: #6f86a4;
+                            }
+                            &.monitor{
+                                background: #fff;
+                                border-color: #ec6459;
+                                color: #ec6459;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.title{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    position:fixed;
+    background: #fff;
+    top: 0;
+    left: 0;
+    .logo{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .more{
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+    .user-info{
+        position: absolute;
+        display: inline-block;
+        right: 20px;
+        vertical-align: middle;
+        margin-top: 6px;
+    }
+}

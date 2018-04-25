@@ -1,0 +1,160 @@
+.main{
+    background: #eef1f5;
+    .groupManager{
+        float: left;
+        background: #eef1f5;
+        width: 100%;
+        .titles{
+            position: relative;
+            height: 30px;
+            line-height: 30px;
+            margin-bottom: 10px;
+            span{
+                font-size: 26px;
+                color: #000;
+                font-weight: 400;
+            }
+        }
+        .content{
+            padding: 20px;
+            padding-left: 0;
+            .top{
+                background: #6F86A4;
+                border-radius:4px 4px  0 0 ;
+                span{
+                    display: inline-block;
+                    height: 40px;
+                    line-height: 40px;
+                    padding-left: 20px;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                    letter-spacing: 0;
+                }
+            }
+            .bottom{
+                background: #fff;
+                color: #555;
+                font-size: 14px;
+                padding: 30px;
+                
+                border-radius: 0 0 4px 4px;
+                table{
+                    border-radius: 4px;
+                    width: 100%;
+                    border: 1px solid #ccc;
+                    border-collapse: collapse;
+                    tr{
+                        td{
+                            padding-left: 10px;
+                            border-right: 1px solid #ccc;
+                            border-bottom: 1px solid #ccc;
+                            height: 50px;
+                            line-height: 50px;
+                            text-align: center;
+                            button{
+                                width: 62px;
+                                height: 26px;
+                                line-height: 26px;
+                                background: #6F86A4;
+                                border: 1px solid #6F86A4;
+                                border-radius: 4px;
+                                color: #fff;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#edit{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 222;
+    background: rgba(0, 0, 0, .3);
+    .edit_box{
+        background: #fff;
+        position: absolute;
+        width: 630px;
+        height: 220px;
+        top: 50%;
+        left: 50%;
+        margin-left: -315px;
+        margin-top: -110px;
+        border-radius: 5px;
+        overflow: hidden;
+        .edit_top{
+            background: #6f86a4;
+            color: #fff;
+            width: 100%;
+            margin-bottom: 35px;
+            
+            span{
+                display:block;
+                height: 60px;
+                line-height: 60px;
+                &.tit{
+                    float: left;
+                    margin-left: 20px;
+                }
+                &.del{
+                    float: right;
+                    margin-right: 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .edit_middle{
+            width: 100%;
+            .rows{
+                width: 480px;
+                margin: 0 auto;
+                color: #333;
+                margin-bottom: 20px;
+                span{
+                    margin-right: 25px;
+                    &.info{
+                        display: inline-block;
+                        margin: 0;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                        width: 320px;
+                        padding-left: 10px;
+                        box-sizing: border-box;
+                        height: 35px;
+                        line-height: 35px;
+                        input{
+                            border: none;
+                            outline: none;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .edit_bottom{
+            border-top: 1px solid #ccc;
+            padding-top: 15px;
+            text-align: right;
+            button{
+                width: 80px;
+                height: 35px;
+                line-height: 35px;
+                text-align: center; 
+                border: none;
+                border-radius: 5px;
+                margin-right: 20px;
+                color: #fff;
+                cursor: pointer;
+                outline: none;
+                &.sure{
+                    background:#6f86a4;
+                }
+            }
+        }
+    }
+}

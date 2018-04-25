@@ -1,0 +1,144 @@
+.titles{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    span{
+        font-size: 26px;
+        color: #000;
+        font-weight: 400;
+    }
+}
+.content{
+    min-width: 1207px;
+    .left{
+        float: left;
+        width: 307px;
+        .left_top{
+            background: #ff6c60;
+            height: 243px;
+            padding-top: 20px;
+            text-align: center;
+            img{
+                border: 5px solid #ffa199;
+                border-radius: 100%;
+                width: 112px;
+                height: 112px;
+                overflow: hidden;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 22px;
+                height: 30px;
+                color: #fff;
+            }
+
+        }
+        .left_middle{
+            dl{
+                dd{
+                    border-left: 4px solid transparent;
+                    line-height: 50px;
+                    background: #fff;
+                    font-size: 13px;
+                    color: #89817f;
+                    width: 304px;
+                    border-bottom: 1px solid #e2e2e4;
+                }
+            }
+        }
+        .left_bottom{
+            padding: 7px 10px 7px 45px;
+            color: #89817f;
+            line-height: 20px;
+            background: #fff;
+            margin-top: 10px;
+            font-size: 12px;
+            position: relative;
+            p{
+                em{
+                    font-size: 20px;
+                    margin-right: 5px;
+                    font-weight: 400;
+                    vertical-align: bottom;
+                    color: #ff6c60;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+    .right{
+        width: 726px;
+        margin-left: 24px;
+        float: left;
+        background: #fff;
+        padding-bottom: 20px;
+        .title{
+            padding: 15px 20px;
+            font-size: 14px;
+            color: #555;
+            line-height: 30px;
+            background: #f9f9f9;
+        }
+        ul{
+            li{
+                border-bottom: 1px solid #f4f4f4;
+                padding: 8px 20px;
+                list-style: none;
+                background: #fff;
+                .le{
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 100%;
+                    text-align: center;
+                    color: #fff;
+                    background:#ff6c60;
+                    span{
+                        font-size: 12px;
+                        line-height: 16px;
+                    }
+                }
+                .mi{
+                    display: inline-block   ;
+                    line-height: 23px;
+                    width: 480px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    font-size: 13px;
+                    color: #7a7472;
+                    font-weight: 400;
+                }
+                .ri{
+                    display: inline-block;
+                    width: 120px;
+                    color: #89817f;
+                    vertical-align: middle;
+                    .dot{
+                        display: inline-block;
+                        p{
+                            &.point{
+                                font-size: 22px;
+                                font-weight: 200;
+                                text-align: right;
+                            }
+                        }
+                    }
+                    .result{
+                        display: inline-block;
+                        height: 50px;
+                        line-height: 50px;
+                        
+                        span{
+                            color: #2ecd4a;
+                            font-size: 13px;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

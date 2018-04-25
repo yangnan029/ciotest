@@ -1,0 +1,93 @@
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    .warp{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background: url('https://cio.group/static/img/login-bg.ddfa76d.jpg') no-repeat center;
+        background-size: 100% 100%;
+        z-index: 1;
+        
+    }
+    .login-box{
+        width: 376px;
+        height: 424px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -188px;
+        margin-top: -212px; 
+        z-index:999;
+        background: #fff;
+        text-align: center;
+        box-shadow: 0 0 15px #6f86a4;
+        .title{
+            background: #6F86A4;
+            border-radius: 4px 4px 0 0;
+            line-height: 25px;
+            padding: 26px 0;
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+        .row{
+            border: 1px solid #E8E8E8;
+            border-radius: 2px;
+            width: 328px;
+            margin: 0 auto;
+            margin-bottom: 22px;
+            box-sizing: border-box;
+            overflow: hidden;
+            span{
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                vertical-align: middle;
+                background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkE2MzlDNTA2QTUzRTExRTU4NkY5RTlGRUUzNjc2M0FCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkE2MzlDNTA3QTUzRTExRTU4NkY5RTlGRUUzNjc2M0FCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QTYzOUM1MDRBNTNFMTFFNTg2RjlFOUZFRTM2NzYzQUIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QTYzOUM1MDVBNTNFMTFFNTg2RjlFOUZFRTM2NzYzQUIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7hNrpMAAABMklEQVR42oxSsYqDQBR8ykIQYpANRziQwLUW2qS08Qcunb1/dUh+40gldnImWgg2EuzEJmipCBbnCubUXY59zT5mh3mzb0domgbW1bZt5Ps+VNVz6DtQVRUsywKE0GnNFRgCkeu6RGQBSpIEjuOQdiGC0jRlOWBiWZZROHpWFfAWi4ukzYZbgMVFbddxC9R1TQvstltuAYwxLaBpGgXGccz8BcMwKK74c7tBnucg75QJO9m2TRHP58/XF8qyDEmSjKc4J5VlCYqC4XB4J6H5szn0x+PHeEc4CwfrSZfL1/CEO/R9/8JITzByR+1gnsCp8TyPIhIMYyWaQeNzhO/rFd72+ygIAmYCmXkYFqrrOpimOTqIWBP/KzIoDMMxF+KDkW+eIostimJIIqftdU1L/hVgADzqfD7PMZYLAAAAAElFTkSuQmCC') no-repeat center;
+            }
+            input{
+                width: 280px;
+                box-sizing: border-box;
+                height: 40px;
+                border: none;
+                outline: none;
+            }
+        }
+        .btn{
+            margin-top: 32px;
+            padding: 18px 24px 10px;
+            button{
+                width: 100%;
+                height: 42px;
+                line-height: 42px;
+                text-align: center;
+                background: #839ab7;
+                color: #fff;
+                font-size: 14px;
+                border-radius: 2px;
+                outline: none;
+                border: none;
+            }
+        }
+        .text{
+            font-size: 14px;
+            padding: 0 24px;
+            color: #b2b2b2;
+            margin-bottom: 5px;
+            text-align: left;
+            input{
+                vertical-align: middle;
+            }
+            span{
+                padding-left: 10px;
+                color: #1f293d;
+            }
+            a{
+                color: #359eff;
+                margin-left: 5px;
+            }
+        }
+    }
+}

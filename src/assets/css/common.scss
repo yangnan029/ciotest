@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.clearfix{
+    zoom: 1;
+    &:after{
+        display: block;
+        height: 0;
+        clear: both;
+        content: "";
+    }
+}

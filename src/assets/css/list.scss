@@ -1,0 +1,19 @@
+.list{
+    width: 170px;
+    text-align: center;
+    height: 100vh;
+    // margin-top: 60px;
+    background: #2a3542;
+    position: fixed;
+    left: 0;
+    top: 60px;
+    z-index: 999;
+    ul{
+        li{
+            height: 50px;
+            line-height: 50px;
+            color: #aeb2b7;
+            font-size: 12px;
+        }
+    }
+}
